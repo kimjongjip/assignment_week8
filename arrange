@@ -6,7 +6,5 @@ do mv files/$i* $i
 done
 
 for i in {A..Z}
-do 
-	lower_i=$(echo $i | tr '[:upper:]' '[:lower:]')
-	mv files/$i* $lower_i
+do mv files/$i* $i
 done
